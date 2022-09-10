@@ -1,0 +1,111 @@
+.footer {
+  padding: 70px 0 40px 0;
+  background-color: #f1f0ee;
+  margin-top: auto;
+  font-family: Comfortaa, cursive;
+}
+.footer a {
+  text-decoration: none;
+  color: #6f6f6f;
+}
+.footer li {
+  list-style: none;
+}
+.footer__text--p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-family: Comfortaa, cursive;
+  color: #454545;
+}
+.footer__text--list li {
+  font-size: 16px;
+  padding: 20px 0;
+}
+.footer__text--list li i {
+  color: #6f6f6f;
+  font-size: 20px;
+}
+.footer__text h5 {
+  font-size: 32px;
+  line-height: 40px;
+  color: #6f6f6f;
+  padding-bottom: 25px;
+  position: relative;
+}
+.footer__text h5 .text {
+  display: none;
+}
+.footer__text p {
+  font-size: 12px;
+  color: #6f6f6f;
+  padding-bottom: 25px;
+  position: absolute;
+  top: 30px;
+  left: 5px;
+}
+.footer__right {
+  padding: 0 0 0 100px;
+  font-size: 14px;
+}
+.footer__right h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  margin: 16px 0;
+  color: #454545;
+}
+.footer__right .purchase {
+  text-align: center;
+}
+.footer__right--purchase {
+  text-align: center;
+  margin-top: 15px;
+}
+.footer__right--purchase img {
+  width: 95px;
+  height: 50px;
+  border-radius: 8px;
+  margin: 5px;
+}
+.footer__right li {
+  padding: 15px 0;
+}
+.footer__foot {
+  margin: 20px 0 15px 0;
+  border-top: 1px solid #6f6f6f;
+  padding-top: 20px;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.footer__foot a i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  transition: 1s;
+  margin: 0 15px 0 15px;
+}
+.footer__foot a i:hover {
+  background-color: #7750be;
+  color: white;
+}
+.footer__foot .fa-telegram-plane:hover {
+  background-color: #58faa9;
+}
+.footer__foot .fa-twitter:hover {
+  background-color: #ddb8ff;
+}
+.footer__foot .fa-instagram:hover {
+  background-color: #e0717c;
+}
+.footer__foot .fa-youtube:hover {
+  background-color: #a81120;
+}
