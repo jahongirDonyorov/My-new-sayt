@@ -1564,6 +1564,7 @@ body {
   background: #282828;
   color: #fff;
   cursor: pointer;
+  border: none;
 }
 .main__form .form .text_form {
   font-size: 16px;
