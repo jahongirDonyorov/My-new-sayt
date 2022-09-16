@@ -44,7 +44,7 @@
     font-size: 15px;
   }
   .header__Full .header__minu--left-logo img {
-    width: 140px;
+    width: 120px;
   }
   .main .slider__corusel {
     height: 30vh;
@@ -131,14 +131,14 @@
     font-size: 23px;
     position: absolute;
     right: 10px;
-    top: 18px;
+    top: 31px;
   }
   .header__Full .header .header__minu--left-logo {
     margin-left: 0;
     padding: 0;
   }
   .header__Full .header .header__minu--left-logo img {
-    width: 160px;
+    width: 140px;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -268,11 +268,14 @@
     display: flex;
     justify-content: start;
   }
-  .header__Full .header__minu--left-icon .header__minu--left-logo img {
+  .header__Full .header__minu--left .header__minu--left-logo img {
     display: block;
+    width: 110px;
+    margin: 10px 0;
   }
   .header__Full .header__minu--left .header__minu--right-icon i {
     right: 8%;
+    top: 40px;
   }
   .header__Full .beskit {
     width: 100%;
