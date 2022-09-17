@@ -398,7 +398,7 @@
               img {
                 display: block;
                 width: 110px;
-                margin: 10px 0;
+                margin:5px 0 10px 0;
               }
             }
 
@@ -625,4 +625,25 @@
     }
   }
 
+}
+@media(max-height: 400px) {
+  .main{
+    &__call{
+      &--box{
+        height: 300px;
+        &-icon{
+          i{
+            position: relative;
+            top: 30px;
+          }
+        }
+        &-info{
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+.call {
+    bottom: 90px;
+}
 }

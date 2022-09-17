@@ -1299,7 +1299,95 @@ body {
       height: 100%;
     }
   }
+  // CALL CENTER
+  &__call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding: 30px 10px;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    &--box{
+      max-width: 400px;
+      width: 90%;
+      background-color:rgb(255, 255, 255);
+      position:fixed;
+      // top:center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      border-radius: 20px;
+      // overflow: hidden;
+      font-family:Comfortaa, cursive;
+      font-weight: 900;
 
+      &-icon{
+        width: 100%;
+        margin-left: auto;
+        display: flex;
+        justify-content: right;
+        
+        i{
+          padding:8px 10px ;
+          border-radius: 50%;
+          display: flex;
+          margin: 5px 10px  ;
+          background-color:#f1eaea;
+          transition: .5s;
+          &:hover{
+            transform: rotate(180deg);
+          }
+        }
+      }
+      &-img{
+        display: flex;
+        justify-content: center;
+        img{
+         width: 70px;
+         max-width: 70px;
+         padding: 5px 0;
+        }
+      }
+      &-text{
+        display: flex;
+        font-size: 18px;
+        line-height: 35px;
+        flex-direction: column;
+        text-align: center;
+        span{
+          a{
+            color:#222;
+          }
+        }
+      }
+      &-link{
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        p{
+          padding: 10px;
+          background-color: #8fcae7;
+          border-radius: 10px;
+          width: 40%;
+          
+        }
+      }
+      &-info{
+        padding: 15px;
+        font-size: 14px;
+      }
+    }
+  }
   //======================================== INFO HTML
   // WEB FULL
   &__web {

@@ -1,14 +1,13 @@
 window.addEventListener("DOMContentLoaded", () => {
-  const loader = document.querySelector('.loader');
-  setTimeout(function () {
-    loader.style.opacity = 0;
-    setTimeout(function () {
-      loader.style.display = 'none';
-    }, 1500)
-  }, 2000)
+  // const loader = document.querySelector('.loader');
+  // setTimeout(function () {
+  //   loader.style.opacity = 0;
+  //   setTimeout(function () {
+  //     loader.style.display = 'none';
+  //   }, 1500)
+  // }, 2000)
 
-
-
+ 
   // novbar uzgaruvchilar
   let nextClick = document.querySelector('.next'),
     bars = document.querySelector('.click__left'),
@@ -130,7 +129,24 @@ function reveal() {
     }
   }
 }
+// CALL CENTER
+const CallNexit = document.querySelector('.call'),
+CallExit = document.querySelector('.icons--xy'),
+CallBox = document.querySelector('.main__call');
 
+CallNexit.addEventListener('click', () => {
+console.log(1);
+CallBox.style.display = 'flex'
+CallNexit.style.display = 'none'
+})
+
+CallExit.addEventListener('click', () => {
+  console.log(1);
+  CallBox.style.display = 'none'
+  CallNexit.style.display = 'flex'
+
+  })
+  
 //================================ phone bars
 let phoneBars = document.querySelector('.phone__bar'),
   phone = document.querySelector('.phone'),
@@ -201,4 +217,6 @@ minus.addEventListener('click', () => {
     a = (a < 10) ? '0' + a : a;
     input.innerText = a;
   }
-})
+});
+
+   

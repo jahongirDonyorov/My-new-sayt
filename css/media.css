@@ -271,7 +271,7 @@
   .header__Full .header__minu--left .header__minu--left-logo img {
     display: block;
     width: 110px;
-    margin: 10px 0;
+    margin: 5px 0 10px 0;
   }
   .header__Full .header__minu--left .header__minu--right-icon i {
     right: 8%;
@@ -411,5 +411,20 @@
       transform: translateX(0px);
       opacity: 1;
     }
+  }
+}
+@media (max-height: 400px) {
+  .main__call--box {
+    height: 300px;
+  }
+  .main__call--box-icon i {
+    position: relative;
+    top: 30px;
+  }
+  .main__call--box-info {
+    margin-bottom: 25px;
+  }
+  .call {
+    bottom: 90px;
   }
 }
