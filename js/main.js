@@ -200,15 +200,18 @@ headerParents.addEventListener('click', (event) => {
 const minus = document.querySelector('.amount__actions--icon-minus'),
   plus = document.querySelector('.amount__actions--icon-plus'),
   input = document.querySelector('.num'),
-  sum = document.querySelector('.sum');
+  sum = document.querySelector('.sum'),
+  defaultSum = document.querySelector('.defaultSum')
 
 let a = 1;
-let b = sum.innerText;
+let b = [];
+b[1] = defaultSum.innerText
 
 plus.addEventListener('click', () => {
   a++;
   a = (a < 10) ? '0' + a : a;
   input.innerText = a;
+  sum.innerText = +sum.innerText + +b[1];
 });
 console.log(b)
 minus.addEventListener('click', () => {
