@@ -219,6 +219,8 @@ minus.addEventListener('click', () => {
     a--;
     a = (a < 10) ? '0' + a : a;
     input.innerText = a;
+  sum.innerText = +sum.innerText - +b[1];
+
   }
 });
 
