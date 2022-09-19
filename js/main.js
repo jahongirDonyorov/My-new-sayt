@@ -72,6 +72,23 @@ window.addEventListener("DOMContentLoaded", () => {
     beskit.style.cssText = 'transform: translateX(500px);'
 
   })
+    // CALL CENTER
+    const CallNexit = document.querySelector('.call'),
+    CallExit = document.querySelector('.icons--xy'),
+    CallBox = document.querySelector('.main__call');
+
+    CallNexit.addEventListener('click', () => {
+    console.log(1);
+    CallBox.style.display = 'flex'
+    CallNexit.style.display = 'none'
+    })
+
+    CallExit.addEventListener('click', () => {
+      console.log(1);
+      CallBox.style.display = 'none'
+      CallNexit.style.display = 'flex'
+
+      });
 
   //  ====================== slider corusel
 
@@ -129,24 +146,7 @@ function reveal() {
     }
   }
 }
-// CALL CENTER
-const CallNexit = document.querySelector('.call'),
-CallExit = document.querySelector('.icons--xy'),
-CallBox = document.querySelector('.main__call');
 
-CallNexit.addEventListener('click', () => {
-console.log(1);
-CallBox.style.display = 'flex'
-CallNexit.style.display = 'none'
-})
-
-CallExit.addEventListener('click', () => {
-  console.log(1);
-  CallBox.style.display = 'none'
-  CallNexit.style.display = 'flex'
-
-  })
-  
 //================================ phone bars
 let phoneBars = document.querySelector('.phone__bar'),
   phone = document.querySelector('.phone'),

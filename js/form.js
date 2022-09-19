@@ -1,3 +1,4 @@
+    
     const idIdex = document.querySelector('#register-link');
     const oneForm = document.querySelector('#one');
     const thwooForm = document.querySelector('#thwoo');
@@ -57,3 +58,5 @@
       }
 
     });
+  
+  
