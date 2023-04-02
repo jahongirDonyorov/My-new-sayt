@@ -31,7 +31,39 @@
 }
 
 @media (max-width:1330px) {
+ 
+  .header__Full{
+    .header{
+      &__input{
+        &--box{
+          input{
+            padding: 6px 5px 6px 7px;
+          font-size: 16px;
 
+          }
+        }
+      }
+      &__minu{
+        &--center{
+          &-list{
+            li{
+            margin: 0 20px 0 0;
+            }
+          }
+        }
+        &--left {
+          &-logo {
+            margin-left: 10px;
+            padding: 13px 0;
+  
+            img {
+              width: 130px;
+            }
+          }
+        }
+      }
+    }
+  }
   .main {
     &__about--us-icon .icons {
       margin: 0 0px 20px;
@@ -42,7 +74,7 @@
 @media (max-width:1130px) {
   .header__Full {
     .header__minu--center-list li {
-      margin: 0 25px 0 0;
+      margin: 0 15px 0 0;
       position: relative;
       font-size: 15px;
     }
@@ -132,7 +164,7 @@
   }
 }
 
-@media(max-width: 920px) {
+@media(max-width: 940px) {
   .call {
     bottom: 180px;
   }

@@ -83,7 +83,35 @@ body {
     width: 100%;
     background: linear-gradient(42deg, #1d89db, #8cb3f8); //#8cb3f8 quwimcha rang linear-gradient(50deg, #282828, #8cb3f8, )
     font-family: Lato;
+    &__input{
+      display: flex;
+      justify-content: center;
+      &--box{
+        // border:1px solid rgb(124, 118, 118);
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        background-color: #ffffff;
+        border-radius: 6px;
+        overflow: hidden;
+        input{
+          width: 90%;
+          padding: 6px 29px 6px 10px;
+          border: none;
+          outline: none;
+          font-size: 18px;
+          background-color: inherit;
+          ::placeholder{
+            color: #8cb3f8;
 
+          }
+        }
+        i{
+          padding: 0 10px 0 0 ;
+          color: #8cb3f8;
+        }
+      }
+    }
     &__phone {
       display: none;
 
@@ -133,7 +161,7 @@ body {
           padding: 10px 0;
 
           img {
-            width: 130px;
+            width: 140px;
           }
         }
       }
@@ -144,9 +172,9 @@ body {
           list-style: none;
 
           li {
-            margin: 0 50px 0 0;
+            margin: 0 30px 0 0;
             position: relative;
-            font-size: 20px;
+            font-size: 17px;
 
             :hover {
 

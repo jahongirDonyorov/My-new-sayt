@@ -305,6 +305,33 @@ body {
   background: linear-gradient(42deg, #1d89db, #8cb3f8);
   font-family: Lato;
 }
+.header__Full .header__input {
+  display: flex;
+  justify-content: center;
+}
+.header__Full .header__input--box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.header__Full .header__input--box input {
+  width: 90%;
+  padding: 6px 29px 6px 10px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background-color: inherit;
+}
+.header__Full .header__input--box input ::placeholder {
+  color: #8cb3f8;
+}
+.header__Full .header__input--box i {
+  padding: 0 10px 0 0 ;
+  color: #8cb3f8;
+}
 .header__Full .header__phone {
   display: none;
 }
@@ -349,16 +376,16 @@ body {
   padding: 10px 0;
 }
 .header__Full .header__minu--left-logo img {
-  width: 130px;
+  width: 140px;
 }
 .header__Full .header__minu--center-list {
   display: flex;
   list-style: none;
 }
 .header__Full .header__minu--center-list li {
-  margin: 0 50px 0 0;
+  margin: 0 30px 0 0;
   position: relative;
-  font-size: 20px;
+  font-size: 17px;
 }
 .header__Full .header__minu--center-list li :hover::after {
   content: '';
